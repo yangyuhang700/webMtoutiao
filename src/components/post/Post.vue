@@ -1,9 +1,18 @@
 <!--  -->
 <template>
 <div class='tt-post'>
-    <div>
-        写代码是一件很快乐的事情
-        {{title}}
+    <div class="title">
+       <span>发微头条</span>
+       <span>写文章</span>
+    </div>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <div class="bottom">
+        <div class="post-left">
+            图片
+        </div>
+        <div class="post-right">
+            发布
+        </div>
     </div>
 </div>
 </template>
@@ -47,5 +56,48 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
 }
 </script>
 <style lang='less' scoped>
-
+    .tt-post{
+        margin: 20px auto;
+        width: 512px;
+        height: 225px;
+        border: 1px solid #e8e8e8;
+        .title{
+            // color: blue;
+            font-size: 14px;
+            border-bottom: 3px solid #e8e8e8;
+            height: 35px;
+            line-height: 35px;
+            span{
+                padding: 0 20px;
+            }
+        }
+        textarea{
+            width: 100%;
+            height: 140px;
+            padding: 0;
+            margin: 0;
+            background-color: #f4f5f6;
+            border: none;
+        }
+        .bottom{
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .post-left{
+                width: 93px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+            }
+            .post-right{
+                width: 120px;
+                height: 40px;
+                background-color: #fe898e;
+                color: white;
+                line-height: 40px;
+                text-align: center;
+            }
+        }
+    }
 </style>
