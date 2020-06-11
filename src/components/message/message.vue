@@ -6,13 +6,13 @@
     </div>
     <div class="messagelist">
       <div class="list-left">
-        <img src="../../../imgs/tx.jpg" alt />
+        <img src="http://image.yy.com/yywebalbumbs2bucket/144152f8680f421599233c6ffcfcef49_1476265267104.jpeg" alt />
       </div>
       <div class="list-right">
-        <div class="middle-top">text</div>
+        <div class="middle-top">笑一个吧</div>
         <div class="middle-botton">
           <div class="headPortrait">
-            <img src="../../../imgs/tx.jpg" alt />
+            <img src="http://image.yy.com/yywebalbumbs2bucket/144152f8680f421599233c6ffcfcef49_1476265267104.jpeg" alt />
           </div>
           <div class="userName">李白</div>
           <div class="dot">·</div>
@@ -58,6 +58,7 @@ export default {
 <style lang='less' scoped>
 .messageBox {
   width: 500px;
+  margin: auto;
   .refresh {
     width: 100%;
     height: 35px;

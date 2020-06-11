@@ -84,6 +84,7 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0 20px;
     .right-list {
         margin-right: 20px;
   }

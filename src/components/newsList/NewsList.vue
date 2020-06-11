@@ -4,7 +4,7 @@
     <h3 class="news-title">24小时热闻</h3>
     <div class="news-list" v-for="n,index in news" :key="index">
         <div class="list-img">
-            <img src="./images/1.jpg" alt="" class="img-image">
+            <img src="http://img4.imgtn.bdimg.com/it/u=2934711476,1098502088&fm=26&gp=0.jpg" alt="" class="img-image">
         </div>
         <div class="list-text">
             {{n.text}}
