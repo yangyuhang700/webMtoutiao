@@ -1,31 +1,24 @@
 <!--  -->
 <template>
-<div class=''>
-    <post></post>
+<div class='tt-post'>
+    <div>
+        写代码是一件很快乐的事情
+        {{title}}
+    </div>
 </div>
 </template>
 
 <script>
 //这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
 //例如：import 《组件名称》 from '《组件路径》';
-import header from '../components/header/Header'
-import login from '../components/login/Login'
-import nav from '../components/nav/Nav'
-import searchInput from '../components/searchInput/searchInput'
-import post from '../components/post/Post'
+
 export default {
 //import引入的组件需要注入到对象中才能使用
-components: {
-    // header,
-    // login,
-    // nav,
-    // searchInput,
-    post
-},
+components: {},
 data() {
 //这里存放数据
 return {
-
+    title:'写代码真的很快乐'
 };
 },
 //监听属性 类似于data概念
@@ -53,6 +46,6 @@ destroyed() {}, //生命周期 - 销毁完成
 activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
 }
 </script>
-<style  scoped>
+<style lang='less' scoped>
 
 </style>

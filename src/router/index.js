@@ -5,7 +5,7 @@ import VueRouter from "vue-router"
 // 2.2 使用 VueRouter
 Vue.use(VueRouter)
 //4. 引入组件
-import Index from "../components/Index"
+import Index from "../components/index"
 // 3. 路由配置文件
 let routes = [{
     path:"/",
