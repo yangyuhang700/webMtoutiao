@@ -25,51 +25,51 @@ return {
        text:"推荐"
        },
          {
-       id:1,
+       id:2,
        text:"西瓜视频"
        },
          {
-       id:2,
+       id:3,
        text:"热点"
        },
          {
-       id:3,
+       id:4,
        text:"直播"
        },
          {
-       id:4,
+       id:5,
        text:"图片"
        },
          {
-       id:5,
+       id:6,
        text:"科技"
        },
          {
-       id:6,
+       id:7,
        text:"娱乐"
        },
          {
-       id:7,
+       id:8,
        text:"游戏"
        },
          {
-       id:8,
+       id:9,
        text:"体育"
        },
          {
-       id:9,
+       id:10,
        text:"懂车帝"
        },
         {
-       id:10,
+       id:11,
        text:"财经"
        },
         {
-       id:11,
+       id:12,
        text:"搞笑"
        },
         {
-       id:12,
+       id:13,
        text:"更多"
        },
 
