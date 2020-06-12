@@ -80,22 +80,18 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
     .tt{
         .tt-cotent{
             width: 100vw;
-             padding: 12px 5vw 10px 15vw;
+             padding: 12px 10vw 10px 15vw;
              display:flex;
+             justify-content: space-evenly;
             .tt-nav-left{
-                flex:1;
-                margin: 0 auto;
+               
             }
             .tt-middle{
-                flex:2;
-                margin: 0 20px;
+                
+               
             }
             .tt-right{
-                flex:2;
-                    margin: 20px 0 0 2vw;
                
-                // display: flex;
-                // justify-content: center;
                 .searchInput{
                 }
                 .login{

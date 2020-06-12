@@ -105,7 +105,6 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
 <style  lang='less' scoped>
 .nav {
    width: 110px;
-   height: 600px;
    background-color: white;
    text-align: center;
   .nav-title {
@@ -113,7 +112,9 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
   }
 
   .nav-title-list {
+    
     .nav-title-list-item {
+        width: 100%;
        height: 40px;
        line-height: 40px;
        transition: all 0.5s;
